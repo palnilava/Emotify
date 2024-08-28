@@ -25,7 +25,7 @@ class YoutubeResults extends Component {
 
   fetchYouTubeVideos(mood) {
     this.setState({ isLoading: true });
-    const apiKey = 'AIzaSyD3xHdJ1--dOe-AQW8ZbEb2F4T2iz1ngYE';
+    const apiKey = process.env.Youtbe_API;
     const maxResults = 10;
     const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=${maxResults}&q=${encodeURIComponent(mood)}&type=video&key=${apiKey}`;
 
