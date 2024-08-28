@@ -1,0 +1,12 @@
+.yt{
+    padding-top: 2rem;
+    
+}
+.yt-suggestions{
+    padding-top: 2rem;
+    background-image: url('./desktop-wallpaper-background.jpg');
+      background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}

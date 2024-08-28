@@ -1,0 +1,16 @@
+.youtube-track {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .track-info {
+    margin-bottom: 10px;
+  }
+  
+  iframe {
+    max-width: 100%; /* Ensures responsiveness */
+    border: none; /* Removes default border around iframe */
+  }
+  
